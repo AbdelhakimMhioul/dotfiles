@@ -1,6 +1,6 @@
-### XClip Aliases
+# XClip Aliases
 alias cpy="xclip -sel clip"
-### VSCode / Curl Aliases
+# VSCode / Curl Aliases
 c.() {
     if [ -z "$1" ]; then
         code .
@@ -8,9 +8,17 @@ c.() {
         cd $1 && code .
     fi
 }
-# alias curl="curlie"
-
-### Git Aliases
+# Flatpak Aliases
+alias fp:i="flatpak install"
+alias fp:up="flatpak update"
+alias fp:r="flatpak run"
+alias fp:s="flatpak search"
+alias fp:un="flatpak uninstall"
+alias fp:ra="flatpak remote-add --if-not-exists"
+alias fp:rm="flatpak remote-delete --if-exists"
+alias fp:l="flatpak list"
+alias fp:ls="flatpak list-remote"
+# Git Aliases
 alias gi="git init"
 alias gclone="git clone"
 alias gpull="git pull"
@@ -29,7 +37,17 @@ gg() {
     git commit -am $1;
     git push;
 }
-ggcu() {
-    cd $HOME/Templates/code-utilities
-    gg 'Random Message'
-}
+# Docker Aliases
+alias dk="docker"
+alias dkc="docker-compose"
+alias dkps="docker ps"
+alias dkpsa="docker ps -a"
+alias dkb="docker build"
+alias dkrm="docker rm"
+alias dkrun="docker run"
+alias dkimg="docker images"
+# Vercel Aliases
+alias vc="vercel"
+alias vc:dep="vc deploy"
+alias vc:pub="vc publish"
+alias vc:prod="vc --prod"
