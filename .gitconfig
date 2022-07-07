@@ -1,0 +1,9 @@
+[user]
+	name = AbdelhakimMhioul
+	email = hakim.mhioul@gmail.com
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[code]
+	editor = nano
