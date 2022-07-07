@@ -10,3 +10,6 @@ fi
 if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
     source /usr/share/zsh/manjaro-zsh-prompt
 fi
+
+# Import Aliases
+[ -f ./zsh_aliases/app_aliases.sh ] && source ./zsh_aliases/app_aliases.sh
