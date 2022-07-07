@@ -1,0 +1,10 @@
+[alias]     # command aliases
+b = "build"
+c = "check"
+t = "test"
+r = "run"
+rrdd = "run --release"
+
+[http]
+debug = false               # HTTP debugging
+#proxy = "http://10.23.201.11:3128"         # HTTP proxy in libcurl format
