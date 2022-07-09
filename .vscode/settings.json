@@ -1,4 +1,4 @@
 {
 	"cSpell.enableFiletypes": ["!shellscript"],
-	"cSpell.words": ["Dotfiles", "Flatpak"]
+	"cSpell.words": ["Dotfiles", "Flatpak", "zoxide"]
 }
