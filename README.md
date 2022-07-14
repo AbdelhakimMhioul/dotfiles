@@ -6,15 +6,19 @@ We have shell aliases for:
 
 - Applications
 
-  - [ ] VSCode
+  - [x] VSCode
 
 - Linux Commands
 
-  - [x] Normal Aliases (system-ctl / nano / exa / zoxide / curl / XClip / micro / bat)
+  - [x] Normal Aliases (System-Ctl / Nano / Curl / XClip)
+  - [ ] Exa
+  - [ ] Micro
+  - [ ] Zoxide
+  - [ ] Bat
   - [x] Flatpak
   - [x] Git
   - [x] Docker
-  - [ ] The fuck
+  - [x] The fuck
 
 - Programming CLIs
 
